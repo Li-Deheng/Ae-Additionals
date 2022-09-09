@@ -13,7 +13,7 @@ Win: ```C\Program files\Adobe\After Effects ...\Support files\Scripts\ScriptUI P
 
 <br> 
 
-## ② First way
+## ② Second way
 Mac: ```Applications/Adobe After Effects .../Scripts```\
 Win: ```C\Program files\Adobe\After Effects ...\Support files\Scripts```
 
