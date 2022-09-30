@@ -1,0 +1,1200 @@
+{
+  "version": 1.2,
+  "menu": [{
+      "id": 1,
+      "name": "Selection",
+      "icon": "ctg-selection",
+      "sections": [{
+          "id": 101,
+          "icon": "selection-select-matching-property",
+          "name": "Select Matching Property",
+          "scriptPath": "01-Selection/Select-Matching-Property.jsxbin",
+          "toolTip": "Selects matching properties across selected layers",
+          "savedSeconds": 21
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+
+        {
+          "id": 102,
+          "icon": "selection-inverse-selection",
+          "name": "Inverse Selection",
+          "scriptPath": "01-Selection/Inverse-Selection.jsxbin",
+          "toolTip": "Inverts layer selection",
+          "savedSeconds": 8
+        },
+        {
+          "id": 103,
+          "icon": "selection-select-layers-at-frame",
+          "name": "Select Layers at Frame",
+          "scriptPath": "01-Selection/Select-Layers-at-Frame.jsxbin",
+          "toolTip": "Selects all layers under the playhead at frame",
+          "savedSeconds": 3
+        },
+        {
+          "id": 104,
+          "icon": "selection-select-odd-even-layers",
+          "name": "Select Odd/Even Layers",
+          "scriptPath": "01-Selection/Select-Odd-Even-Layers.jsxbin",
+          "toolTip": "Selects layers with odd or even numbers in the active comp",
+          "savedSeconds": 8
+        },
+        {
+          "id": 105,
+          "icon": "selection-random-select-deselect",
+          "name": "Random Select/Deselect",
+          "scriptPath": "01-Selection/Random-Select-Deselect.jsxbin",
+          "toolTip": "Selects layers at random and deselects layers at random if already selected",
+          "savedSeconds": 8
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+
+        {
+          "id": 106,
+          "icon": "selection-select-text-objects",
+          "name": "Select Text Objects",
+          "scriptPath": "01-Selection/Select-Text-Object.jsxbin",
+          "toolTip": "Selects all text layers in the active comp\nShift + Click: Selects all layers exept text layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 107,
+          "icon": "selection-select-nulls",
+          "name": "Select Nulls",
+          "scriptPath": "01-Selection/Select-Nulls.jsxbin",
+          "toolTip": "Selects all null layers in the active comp\nShift + Click: Selects all layers except null layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 108,
+          "icon": "selection-select-precomps",
+          "name": "Select Precomps",
+          "scriptPath": "01-Selection/Select-PreComps.jsxbin",
+          "toolTip": "Selects all pre-comps in the active comp\nShift + Click: Selects all layers except pre-comps",
+          "savedSeconds": 3
+        },
+        {
+          "id": 109,
+          "icon": "selection-select-shape-objects",
+          "name": "Select Shape Objects",
+          "scriptPath": "01-Selection/Select-Shape-Objects.jsxbin",
+          "toolTip": "Selects all shape objects in the active comp\nShift + Click: Selects all layers except shape objects",
+          "savedSeconds": 3
+        },
+        {
+          "id": 110,
+          "icon": "selection-select-3d-layers",
+          "name": "Select 3D Layers",
+          "scriptPath": "01-Selection/Select-3D-Layers.jsxbin",
+          "toolTip": "Selects all 3D layers in the active comp\nShift + Click: Selects all layers except 3D layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 111,
+          "icon": "selection-select-guide-layers",
+          "name": "Select Guide Layers",
+          "scriptPath": "01-Selection/Select-Guide-Layers.jsxbin",
+          "toolTip": "Selects all guide layers in the active comp\nShift + Click: Selects all layers except guide layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 112,
+          "icon": "selection-select-lights",
+          "name": "Select Lights",
+          "scriptPath": "01-Selection/Select-Lights.jsxbin",
+          "toolTip": "Selects all lights in the active comp\nShift + Click: Selects all layers except lights",
+          "savedSeconds": 1
+        }, {
+          "id": 113,
+          "icon": "selection-select-audio-layers",
+          "name": "Select Audio Layers",
+          "scriptPath": "01-Selection/Select-Audio-Layers.jsxbin",
+          "toolTip": "Selects all audio layers in the active comp\nShift + Click: Selects all layers except audio layers",
+          "savedSeconds": 1
+        }, {
+          "icon": "separator-horiz",
+          "name": "separator"
+        }, {
+          "id": 114,
+          "icon": "selection-select-all-parent-layers",
+          "name": "Select All Parent Layers",
+          "scriptPath": "01-Selection/Select-All-Parent-Layers.jsxbin",
+          "toolTip": "Selects all parent layers in a hierarchy",
+          "savedSeconds": 8
+        }, {
+          "id": 115,
+          "icon": "selection-select-all-child-layers",
+          "name": "Select All Child Layers",
+          "scriptPath": "01-Selection/Select-All-Child-Layers.jsxbin",
+          "toolTip": "Selects all child layers in a hierarchy",
+          "savedSeconds": 3
+        }, {
+          "id": 116,
+          "icon": "selection-select-childs-of-layers",
+          "name": "Select Complete Hierarchy",
+          "scriptPath": "01-Selection/Select-Children-of-Layers.jsxbin",
+          "toolTip": "Selects all child layers parented to the selected layers\nCtrl + Click: Selects all hierarchy\nShift + Click: Adds selection to the previously selected layers",
+          "savedSeconds": 21
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Layers",
+      "icon": "ctg-layers",
+      "sections": [{
+          "id": 117,
+          "icon": "layers-set-select-layer-group",
+          "name": "Set/Select Layer Group",
+          "scriptPath": "02-Layers/Set-Select-Layers-Group.jsxbin",
+          "toolTip": "Sets and retrieves a user defined selection of multiple layers\nClick: Set layer selection | Shift + Click: Activate selection",
+          "savedSeconds": 8
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 118,
+          "icon": "layers-duplicate-layers",
+          "name": "Duplicate Layers",
+          "scriptPath": "02-Layers/Duplicate-Layers.jsxbin",
+          "toolTip": "Duplicates selected layers with the option to offset copies along x, y, z axes",
+          "savedSeconds": 8
+        },
+        {
+          "id": 119,
+          "icon": "layers-shift-layer-times",
+          "name": "Shift Layer Times",
+          "scriptPath": "02-Layers/Shift-Layers-Times.jsxbin",
+          "toolTip": "Moves selected layers together on the timeline to current time",
+          "savedSeconds": 1
+        },
+        {
+          "id": 120,
+          "icon": "layers-order-layers",
+          "name": "Order Layers",
+          "scriptPath": "02-Layers/Order-Layers.jsxbin",
+          "toolTip": "Orders selected layers on the timeline by selection order,\nin/out points, names or at random\nCtrl + Click: Reverses selected layers order\nShift + Click: Orders layers by selection",
+          "savedSeconds": 8
+        },
+        {
+          "id": 121,
+          "icon": "layers-offset-layers",
+          "name": "Offset Layers",
+          "scriptPath": "02-Layers/Offset-Layers.jsxbin",
+          "toolTip": "Offsets, trims, sequences or randomises selected layers on the timeline",
+          "savedSeconds": 13
+        },
+        {
+          "id": 122,
+          "icon": "layers-rename-layers",
+          "name": "Rename Layers",
+          "scriptPath": "02-Layers/Rename-Layers.jsxbin",
+          "toolTip": "Batch renames selected layers with number increments",
+          "savedSeconds": 15
+        },
+        {
+          "id": 123,
+          "icon": "layers-trim-layers",
+          "name": "Trim Layers",
+          "scriptPath": "02-Layers/Trim-Layers.jsxbin",
+          "toolTip": "Trims selected layers by their first and last keys",
+          "savedSeconds": 8
+        }, {
+          "id": 124,
+          "icon": "layers-set-label-colors",
+          "name": "Set Label Colors",
+          "scriptPath": "02-Layers/Set-Label-Colors.jsxbin",
+          "toolTip": "Changes selected layers' label colors by order,\nhierarchy or type for improved contrast",
+          "savedSeconds": 20
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 125,
+          "icon": "layers-set-anchor-point",
+          "name": "Set Anchor Point",
+          "scriptPath": "02-Layers/Set-Anchor-Point.jsxbin",
+          "toolTip": "Sets anchor points for selected layers with\nthe option to add expression controls\nCtrl + Click: Set anchor point to layer(s) center",
+          "savedSeconds": 8
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 126,
+          "icon": "layers-parent-to-null",
+          "name": "Parent to Null",
+          "scriptPath": "02-Layers/Parent-to-Null.jsxbin",
+          "toolTip": "Parents selected layers to new nulls with null type,\nnaming and hierarchy options\nCtrl + Click: Parent layer to null based on last settings",
+          "savedSeconds": 6
+        },
+        {
+          "id": 127,
+          "icon": "layers-parent-to-first-selected",
+          "name": "Parent to First Selected",
+          "scriptPath": "02-Layers/Parent-to-First-Selected.jsxbin",
+          "toolTip": "Parents selected layers to the first layer selected",
+          "savedSeconds": 3
+        },
+        {
+          "id": 128,
+          "icon": "layers-parent-to-above-layer",
+          "name": "Parent to Above Layer",
+          "scriptPath": "02-Layers/Parent-Selected-to-Layer-Above.jsxbin",
+          "toolTip": "Parents selected layers to the next layer above each",
+          "savedSeconds": 8
+        },
+        {
+          "id": 129,
+          "icon": "layers-parent-in-order-of-selection",
+          "name": "Parent in Order of Selection",
+          "scriptPath": "02-Layers/Parent-in-Order-of-Selection.jsxbin",
+          "toolTip": "Parents selected layers as a hierarchy chain in order of selection",
+          "savedSeconds": 10
+        },       
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 130,
+          "icon": "layers-trim-mattes-to-layers",
+          "name": "Trim Mattes to Layers",
+          "scriptPath": "02-Layers/Trim-Matte-to-Layers.jsxbin",
+          "toolTip": "Trims matte layers to match their target layers' in/out points",
+          "savedSeconds": 15
+        },
+        {
+          "id": 131,
+          "icon": "layers-rename-matte-layers",
+          "name": "Rename Matte Layers",
+          "scriptPath": "02-Layers/Rename-Matte-Layers.jsxbin",
+          "toolTip": "Batch renames matte layers to match their target layers",
+          "savedSeconds": 8
+        },
+        {
+          "id": 132,
+          "icon": "layers-hide-matte-layers",
+          "name": "Hide Matte Layers",
+          "scriptPath": "02-Layers/Hide-Matte-Layers.jsxbin",
+          "toolTip": "Hides all matte layers",
+          "savedSeconds": 8
+        },
+        {
+          "id": 133,
+          "icon": "layers-apply-matte-layer",
+          "name": "Apply Matte Layer",
+          "scriptPath": "02-Layers/Apply-Matte-Layer.jsxbin",
+          "toolTip": "Applies matte on selected layers with additional matte type options",
+          "savedSeconds": 5
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 134,
+          "icon": "layers-lock-unlock-all-layers",
+          "name": "Lock/Unlock All Layers",
+          "scriptPath": "02-Layers/Lock-Unlock-Layers.jsxbin",
+          "toolTip": "Locks and unlocks all layers in the active comp",
+          "savedSeconds": 1
+        },
+
+        {
+          "id": 135,
+          "icon": "layers-lock-unlock-shy-layers",
+          "name": "Lock/Unlock Shy Layers",
+          "scriptPath": "02-Layers/Lock-Unlock-Shy-Layers.jsxbin",
+          "toolTip": "Locks and unlocks all shy layers in the active comp",
+          "savedSeconds": 8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Keyframes",
+      "icon": "ctg-keyframes",
+      "sections": [{
+          "id": 136,
+          "icon": "keyframes-set-select-keys-group",
+          "name": "Set/Select Keys Group",
+          "scriptPath": "03-Keyframes/Set-Select-Keys-Group.jsxbin",
+          "toolTip": "Sets and retrieves a user defined selection of multiple keys\nClick: Set key selection | Shift + Click: Activate selection",
+          "savedSeconds": 8
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 137,
+          "icon": "keyframes-snap-keys to-nearest-frame-time",
+          "name": "Snap Keys to Frames (Time)",
+          "scriptPath": "03-Keyframes/Snap-Keys-to-Frames.jsxbin",
+          "toolTip": "Snaps selected keyframes each to their nearest frame on the timeline",
+          "savedSeconds": 8
+        },
+        {
+          "id": 138,
+          "icon": "keyframes-fix-overshooting-keys-spatial",
+          "name": "Fix Overshooting Keys (Spatial)",
+          "scriptPath": "03-Keyframes/Fix-Overshooting-Keys.jsxbin",
+          "toolTip": "Fixes overshooting motion paths by applying linear\ninterpolation between identical position keys",
+          "savedSeconds": 10
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 139,
+          "icon": "keyframes-clone-keys",
+          "name": "Clone Keys",
+          "scriptPath": "03-Keyframes/Clone-Keys.jsxbin",
+          "toolTip": "Duplicates selected keys, supports selection across multiple properties",
+          "savedSeconds": 5
+        },
+        {
+          "id": 140,
+          "icon": "keyframes-clone-and-mirror-keys",
+          "name": "Clone & Mirror Keys",
+          "scriptPath": "03-Keyframes/Clone-and-Mirror-Keys.jsxbin",
+          "toolTip": "Clones and time-reverses selected keys,\nsupports selection across multiple properties",
+          "savedSeconds": 14
+        },
+        {
+          "id": 141,
+          "icon": "keyframes-time-reverse-keys",
+          "name": "Time-Reverse Keys",
+          "scriptPath": "03-Keyframes/Timer-Reverse-Keys.jsxbin",
+          "toolTip": "Inverts keys over time",
+          "savedSeconds": 8
+        },
+        {
+          "id": 142,
+          "icon": "keyframes-shift-keys-time",
+          "name": "Shift Keys in Time",
+          "scriptPath": "03-Keyframes/Shift-Keys.jsxbin",
+          "toolTip": "Moves selected keys together on the timeline\n Ctrl + Click: Moves keys to current time",
+          "savedSeconds": 5
+        },
+        {
+          "id": 143,
+          "icon": "keyframes-offset-keys",
+          "name": "Offset Keys",
+          "scriptPath": "03-Keyframes/Offset-Keys.jsxbin",
+          "toolTip": "Offsets selected keys in properties by a number of frames\nor seconds defined by user",
+          "savedSeconds": 14
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 144,
+          "icon": "keyframes-move-keys-to-current-time",
+          "name": "Move Keys to Current Time",
+          "scriptPath": "03-Keyframes/Move-Keys-to-Current-Time.jsxbin",
+          "toolTip": "Moves and aligns together selected keys\nacross multiple properties to current time",
+          "savedSeconds": 8
+        },
+        {
+          "id": 145,
+          "icon": "keyframes-move-keys-to-in-point",
+          "name": "Move Keys to In Point",
+          "scriptPath": "03-Keyframes/Move-Keys-to-in-Point.jsxbin",
+          "toolTip": "Moves and aligns together selected keys\nacross multiple properties to the in point of layer",
+          "savedSeconds": 8
+        },
+        {
+          "id": 146,
+          "icon": "keyframes-move-keys-to-out-point",
+          "name": "Move Keys to Out Point",
+          "scriptPath": "03-Keyframes/Move-Keys-to-out-Point.jsxbin",
+          "toolTip": "Moves and aligns togetger selected keys\nacross multiple properties from the out point of layer",
+          "savedSeconds": 8
+        },
+        {
+          "id": 147,
+          "icon": "keyframes-left-align-keys",
+          "name": "Left Align Keys",
+          "scriptPath": "03-Keyframes/Left-Align-Keys.jsxbin",
+          "toolTip": "Aligns selected keys across multiple properties\nto the left-most key in the layer",
+          "savedSeconds": 10
+        },
+        {
+          "id": 148,
+          "icon": "keyframes-right-align-keys",
+          "name": "Right Align Keys",
+          "scriptPath": "03-Keyframes/Right-Align-Keys.jsxbin",
+          "toolTip": "Aligns selected keys across multiple properties\nfrom the right-most key in the layer",
+          "savedSeconds": 10
+        }, {
+          "icon": "separator-horiz",
+          "name": "separator"
+        }, {
+          "id": 149,
+          "icon": "keyframes-key-looper",
+          "name": "Key Looper",
+          "scriptPath": "03-Keyframes/Key-Looper.jsxbin",
+          "toolTip": "Applies an expression to selected properties\nto loop keys in and/or out with options",
+          "savedSeconds": 12
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Composition",
+      "icon": "ctg-composition",
+      "sections": [{
+          "id": 150,
+          "icon": "composition-create-camera-rig",
+          "name": "Create Camera Rig",
+          "scriptPath": "04-Composition/Create-Camera-Rig.jsxbin",
+          "toolTip": "Creates a camera rig with easily accessible and animatable settings in one place",
+          "savedSeconds": 120
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 151,
+          "icon": "composition-auto-trim-comp",
+          "name": "Auto Trim Comp",
+          "scriptPath": "04-Composition/Auto-Trim-Comp.jsxbin",
+          "toolTip": "Trims or lenghtens the active comp's duration by the in/out points of its layers",
+          "savedSeconds": 15
+        },
+        {
+          "id": 152,
+          "icon": "composition-auto-crop-comp",
+          "name": "Auto Crop Comps",
+          "scriptPath": "04-Composition/Auto-Crop-Comp.jsxbin",
+          "toolTip": "Crops the active comp or selected comps",
+          "savedSeconds": 35
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 153,
+          "icon": "composition-pre-compose",
+          "name": "Pre-Compose",
+          "scriptPath": "04-Composition/Pre-Compose.jsxbin",
+          "toolTip": "Pre-composes selected layers with additional options to pre-comp each individually and auto-crop",
+          "savedSeconds": 29
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 154,
+          "icon": "composition-batch-rename-comps",
+          "name": "Batch Rename Comps",
+          "scriptPath": "04-Composition/Batch-Rename-Comps.jsxbin",
+          "toolTip": "Search and replace text in comp titles",
+          "savedSeconds": 55
+        },
+        {
+          "id": 155,
+          "icon": "composition-batch-scale-comps",
+          "name": "Batch Scale Comps",
+          "scriptPath": "04-Composition/Batch-Scale-Comp.jsxbin",
+          "toolTip": "Scales multiple compositions",
+          "savedSeconds": 55
+        },
+        {
+          "id": 156,
+          "icon": "composition-batch-resize-canvas",
+          "name": "Batch Resize Canvas",
+          "scriptPath": "04-Composition/Batch-Resize-Canvas.jsxbin",
+          "toolTip": "Resizes multiple compositions",
+          "savedSeconds": 43
+        },
+        {
+          "id": 157,
+          "icon": "composition-batch-comp-settings",
+          "name": "Batch Comp Settings",
+          "scriptPath": "04-Composition/Batch-Comp-Settings.jsxbin",
+          "toolTip": "Apply comp settings to multiple compositions",
+          "savedSeconds": 55
+        },
+        {
+          "id": 158,
+          "icon": "composition-batch-color-replacer",
+          "name": "Batch Color Replacer",
+          "scriptPath": "04-Composition/Batch-Color-Replacer.jsxbin",
+          "toolTip": "Finds and replaces colors in selected comps or across the entire project",
+          "savedSeconds": 21
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 159,
+          "icon": "composition-export-comps-as-projects",
+          "name": "Export Comps as New Project",
+          "scriptPath": "04-Composition/Export-Comps-as-New-Projects.jsxbin",
+          "toolTip": "Creates a new project file containing selected comps",
+          "savedSeconds": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Project",
+      "icon": "ctg-project",
+      "sections": [
+
+        {
+          "id": 160,
+          "icon": "project-reveal-selected-layer-assets",
+          "name": "Reveal Selected Layer Assets",
+          "scriptPath": "05-Project/Reveal-Selected-Layers.jsxbin",
+          "toolTip": "Highlights selected layers' dependencies in the project panel",
+          "savedSeconds": 8
+        },
+        {
+          "id": 161,
+          "icon": "project-reveal-current-comp",
+          "name": "Reveal Current Comp",
+          "scriptPath": "05-Project/Reveal-Current-Comp.jsxbin",
+          "toolTip": "Highlights the active comp in the project panel",
+          "savedSeconds": 2
+        },
+
+        {
+          "id": 162,
+          "icon": "project-reveal-project-folder",
+          "name": "Reveal Project Folder",
+          "scriptPath": "05-Project/Reveal-Project-Folder.jsxbin",
+          "toolTip": "Reveals the project folder location",
+          "savedSeconds": 3
+        },
+        {
+          "id": 163,
+          "icon": "project-reveal-script-folder",
+          "name": "Reveal AE Script Folder",
+          "scriptPath": "05-Project/Reveal-AE-Script-Folder.jsxbin",
+          "toolTip": "Reveals After Effects script folder location",
+          "savedSeconds": 21
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 164,
+          "icon": "project-create-folder-structure",
+          "name": "Create Folder Structure",
+          "scriptPath": "05-Project/Create-Folder-Structure.jsxbin",
+          "toolTip": "Creates a hierarchy of folders in the project panel\nwith presets based on typical use-case scenarios",
+          "savedSeconds": 55
+        },
+        {
+          "id": 165,
+          "icon": "project-organize-project",
+          "name": "Organize Project",
+          "scriptPath": "05-Project/Organize-Project.jsxbin",
+          "toolTip": "Organizes project assets by type in folders\nwith user customisable names",
+          "savedSeconds": 55
+        },
+        {
+          "id": 166,
+          "icon": "project-project-clean-up",
+          "name": "Project Cleanup",
+          "scriptPath": "05-Project/Project-Cleanup.jsxbin",
+          "toolTip": "Cleans up the project by removing unused items,\ndisabled effects and expressions",
+          "savedSeconds": 55
+        }
+
+      ]
+    },
+    {
+      "name": "separator",
+      "icon": "separator-vert"
+    },
+    {
+      "id": 6,
+      "name": "Guides",
+      "icon": "ctg-guides",
+      "sections": [{
+          "id": 167,
+          "icon": "guides-show-hide-guides",
+          "name": "Show/Hide Guides",
+          "scriptPath": "06-Guides/Show-Hide-Guides.jsxbin",
+          "toolTip": "Shows or hides all guides",
+          "savedSeconds": 1
+        },
+        {
+          "id": 168,
+          "icon": "guides-lock-unlock-guides",
+          "name": "Lock/Unlock Guides",
+          "scriptPath": "06-Guides/Lock-Unlock-Guides.jsxbin",
+          "toolTip": "Locks or unlocks all guides",
+          "savedSeconds": 1
+        },
+        {
+          "id": 169,
+          "icon": "guides-toggle-snap-to-guides",
+          "name": "Toggle Snap to Guides",
+          "scriptPath": "06-Guides/Toggle-Snap-to-Guides.jsxbin",
+          "toolTip": "Toggles snap to guides option on and off",
+          "savedSeconds": 1
+        },
+
+        {
+          "id": 170,
+          "icon": "guides-clear-guides",
+          "name": "Clear Guides",
+          "scriptPath": "06-Guides/Clear-Guides.jsxbin",
+          "toolTip": "Deletes all guides",
+          "savedSeconds": 1
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 171,
+          "icon": "guides-add-guides-around",
+          "name": "Add Guides Around",
+          "scriptPath": "06-Guides/Add-Guides-Around.jsxbin",
+          "toolTip": "Places guides around selected layers' boundaries",
+          "savedSeconds": 5
+        },
+        {
+          "id": 172,
+          "icon": "guides-add-guides-left",
+          "name": "Add Guides Left",
+          "scriptPath": "06-Guides/Add-Guides-Left.jsxbin",
+          "toolTip": "Places guides on the left edge of the active comp or selected layers",
+          "savedSeconds": 13
+        },
+        {
+          "id": 173,
+          "icon": "guides-add-guides-right",
+          "name": "Add Guides Right",
+          "scriptPath": "06-Guides/Add-Guides-Right.jsxbin",
+          "toolTip": "Places guides on the right edge of the active comp or selected layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 174,
+          "icon": "guides-add-guides-top",
+          "name": "Add Guides Top",
+          "scriptPath": "06-Guides/Add-Guides-Top.jsxbin",
+          "toolTip": "Places guides on the top edge of selected layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 175,
+          "icon": "guides-add-guides-bottom",
+          "name": "Add Guides Bottom",
+          "scriptPath": "06-Guides/Add-Guides-Bottom.jsxbin",
+          "toolTip": "Places guides on the bottom edge of selected layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 176,
+          "icon": "guides-add-guides-center",
+          "name": "Add Guides Center",
+          "scriptPath": "06-Guides/Add-Guides-Center.jsxbin",
+          "toolTip": "Places guides at the (horizontal) center of selected layers",
+          "savedSeconds": 3
+        }, {
+          "id": 177,
+          "icon": "guides-add-guides-middle",
+          "name": "Add Guides Middle",
+          "scriptPath": "06-Guides/Add-Guides-Middle.jsxbin",
+          "toolTip": "Places guides in the (vertical) middle of selected layers",
+          "savedSeconds": 3
+        },
+        {
+          "id": 178,
+          "icon": "guides-add-guides-anchor",
+          "name": "Add Guides Anchor",
+          "scriptPath": "06-Guides/Add-Guides-Anchor.jsxbin",
+          "toolTip": "Places guides at the anchor points of selected layers",
+          "savedSeconds": 3
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 179,
+          "icon": "guides-create-guide-grid-system",
+          "name": "Create Guide/Grid System",
+          "scriptPath": "06-Guides/Create-Guide-System.jsxbin",
+          "toolTip": "Creates a guide or grid system with the option of adding gutters",
+          "savedSeconds": 55
+        },
+        {
+          "id": 180,
+          "icon": "guides-golden-ratio",
+          "name": "Golden Ratio",
+          "scriptPath": "06-Guides/Golden-Ratio.jsxbin",
+          "toolTip": "Adds a golden ratio reference layer",
+          "savedSeconds": 55
+        }
+
+      ]
+    },
+    {
+      "id": 7,
+      "name": "View",
+      "icon": "ctg-view",
+      "sections": [{
+          "id": 181,
+          "icon": "view-solo-layers-viewer",
+          "name": "Solo Layers (Viewer)",
+          "scriptPath": "07-View/Solo-Layers-Viewer.jsxbin",
+          "toolTip": "Displays only the selected layers in the viewer",
+          "savedSeconds": 8
+        },
+        {
+          "id": 182,
+          "icon": "view-solo-layers-timeline",
+          "name": "Solo Layers (Timeline) ",
+          "scriptPath": "07-View/Solo-Layers-Timeline.jsxbin",
+          "toolTip": "Hides all but the selected layers on the timeline as shy layers",
+          "savedSeconds": 8
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 183,
+          "icon": "view-white-bg",
+          "name": "White BG",
+          "scriptPath": "07-View/White-BG.jsxbin",
+          "toolTip": "Sets active comp background color setting to white\nCtrl + Click: Sets background color for selected comps",
+          "savedSeconds": 8
+        },
+        {
+          "id": 184,
+          "icon": "view-black-bg",
+          "name": "Black BG",
+          "scriptPath": "07-View/Black-BG.jsxbin",
+          "toolTip": "Sets active comp  background color setting to black\nCtrl + Click: Sets background color for selected comps",
+          "savedSeconds": 8
+        },
+        {
+          "id": 185,
+          "icon": "view-grey-bg",
+          "name": "Gray BG",
+          "scriptPath": "07-View/Gray-BG.jsxbin",
+          "toolTip": "Sets active comp background color setting to gray\nCtrl + Click: Sets background color for selected comps",
+          "savedSeconds": 8
+        },
+        {
+          "id": 186,
+          "icon": "view-set-bg-color",
+          "name": "Set BG Color",
+          "scriptPath": "07-View/Set-BG-Color.jsxbin",
+          "toolTip": "Sets active comp background color setting to custom color\nCtrl + Click: Sets background color for selected comps",
+          "savedSeconds": 3
+        }, {
+          "id": 187,
+          "icon": "view-toggle-checkboard",
+          "name": "Toggle Checkerboard",
+          "scriptPath": "07-View/Toggle-Checkerboard.jsxbin",
+          "toolTip": "Toggles the transparency grid in the viewer\nCtrl + Click: Sets background color for selected comps",
+          "savedSeconds": 0
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 188,
+          "icon": "view-reset-view-100",
+          "name": "Reset View (100%)",
+          "scriptPath": "07-View/Reset-View-100.jsxbin",
+          "toolTip": "Recenters selected comps or active comp in the viewer\nat 100% scale, hides guides and rulers\nCtrl + Click: Resets viewer for selected comps",
+          "savedSeconds": 8
+        },
+        {
+          "id": 189,
+          "icon": "view-reset-view-50",
+          "name": "Reset View (50%)",
+          "scriptPath": "07-View/Reset-View-50.jsxbin",
+          "toolTip": "Recenters selected comps or active comp in the viewer\nat 50% scale, hides guides and rulers\nCtrl + Click: Resets viewer for selected comps",
+          "savedSeconds": 8
+        },
+        {
+          "id": 190,
+          "icon": "view-reset-view-33",
+          "name": "Reset View (33%)",
+          "scriptPath": "07-View/Reset-View-33.jsxbin",
+          "toolTip": "Recenters selected comps or active comp in the viewer\nat 33% scale, hides guides and rulers\nCtrl + Click: Resets viewer for selected comps",
+          "savedSeconds": 8
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 191,
+          "icon": "view-save-screenshot",
+          "name": "Save Screenshot",
+          "scriptPath": "07-View/Save-Screenshot.jsxbin",
+          "toolTip": "Takes a screenshot of the active comp\nCtrl + Click: Takes screenshots of the selected comps",
+          "savedSeconds": 8
+        }
+
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Expressions",
+      "icon": "ctg-expression",
+      "sections": [{
+          "id": 192,
+          "icon": "expressions-enable-expressions",
+          "name": "Enable Expressions",
+          "scriptPath": "08-Expressions/Enable-Expressions.jsxbin",
+          "toolTip": "Enables expressions in selected layers or properties in the active comp",
+          "savedSeconds": 3
+        },
+        {
+          "id": 193,
+          "icon": "expressions-disable-expressions",
+          "name": "Disable Expressions",
+          "scriptPath": "08-Expressions/Disable-Expressions.jsxbin",
+          "toolTip": "Disables expressions in selected layers or properties in the active comp",
+          "savedSeconds": 3
+        },
+        {
+          "id": 194,
+          "icon": "expressions-remove-expressions",
+          "name": "Remove Expressions",
+          "scriptPath": "08-Expressions/Remove-Expressions.jsxbin",
+          "toolTip": "Removes expressions in selected layers or properties in the active comp",
+          "savedSeconds": 8
+        },
+        {
+          "id": 195,
+          "icon": "expressions-bake-expressions",
+          "name": "Bake Expressions",
+          "scriptPath": "08-Expressions/Bake-Expressions.jsxbin",
+          "toolTip": "Bakes selected expressions into their layer properties as keys",
+          "savedSeconds": 3
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 196,
+          "icon": "expressions-find-and-replace-expressions",
+          "name": "Find and Replace Expressions",
+          "scriptPath": "08-Expressions/Find-and-Replace-Expressions.jsxbin",
+          "toolTip": "Finds and replaces strings in expressions on selected layers or properties,\nor across the entire project",
+          "savedSeconds": 33
+        },
+        {
+          "id": 197,
+          "icon": "expressions-remove-expressions-with-errors",
+          "name": "Remove Expressions with Errors",
+          "scriptPath": "08-Expressions/Remove-Expressions-with-Errors.jsxbin",
+          "toolTip": "Clears expressions that return errors across the entire project",
+          "savedSeconds": 33
+        }
+      ]
+    },
+    {
+      "icon": "separator-horiz",
+      "name": "separator"
+    },
+    {
+      "id": 9,
+      "name": "Shapes",
+      "icon": "ctg-shapes",
+      "sections": [{
+          "id": 198,
+          "icon": "shapes-circle-wizard",
+          "name": "Circle Wizard",
+          "scriptPath": "09-Shapes/Circle-Wizard.jsxbin",
+          "toolTip": "Creates and sets up a circle shape object with the option\nto add expression controls",
+          "savedSeconds": 5
+        },
+        {
+          "id": 199,
+          "icon": "shapes-rectangle-wizard",
+          "name": "Rectangle Wizard",
+          "scriptPath": "09-Shapes/Rectangle-Wizard.jsxbin",
+          "toolTip": "Creates and sets up a rectangle shape object with the option\nto add an expression controls",
+          "savedSeconds": 5
+        },
+        {
+          "id": 200,
+          "icon": "shapes-grid-overlay",
+          "name": "Grid Overlay",
+          "scriptPath": "09-Shapes/Grid-Overlay.jsxbin",
+          "toolTip": "Creates and sets up grid lines in the active comp",
+          "savedSeconds": 55
+        },
+        {
+          "id": 201,
+          "icon": "shapes-connect-elements",
+          "name": "Connect Elements",
+          "scriptPath": "09-Shapes/Connect-Elements.jsxbin",
+          "toolTip": "Creates a responsive connection line between two selected layers",
+          "savedSeconds": 55
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 202,
+          "icon": "shapes-trim-paths-controller",
+          "name": "Trim Paths Controller",
+          "scriptPath": "09-Shapes/Trim-Path-Controller.jsxbin",
+          "toolTip": "Applies an expression control to selected layers for trim paths settings",
+          "savedSeconds": 8
+        },
+        {
+          "id": 203,
+          "icon": "shapes-consistent-stroke-width",
+          "name": "Consistent Stroke Width",
+          "scriptPath": "09-Shapes/Consistent-Stroke-Width.jsxbin",
+          "toolTip": "Retains stroke width appearance when scaling using transform properties",
+          "savedSeconds": 8
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 204,
+          "icon": "shapes-explode-shape-to-layers",
+          "name": "Explode Shapes to Layers",
+          "scriptPath": "09-Shapes/Explode-Shape-Layer.jsxbin",
+          "toolTip": "Separates shape components in the selected layer\ninto individual shape layers",
+          "savedSeconds": 30
+        },
+        {
+          "id": 205,
+          "icon": "shapes-merge-shape-layers",
+          "name": "Merge Shape Layers",
+          "scriptPath": "09-Shapes/Merge-Shape-Layers.jsxbin",
+          "toolTip": "Combines selected shape layers into one shape layer",
+          "savedSeconds": 42
+        },
+        {
+          "id": 206,
+          "icon": "shapes-select-all-strokes",
+          "name": "Select All Strokes",
+          "scriptPath": "09-Shapes/Select-All-Strokes.jsxbin",
+          "toolTip": "Selects stroke properties in the selected shape layers",
+          "savedSeconds": 12
+        },
+        {
+          "id": 207,
+          "icon": "shapes-select-all-fills",
+          "name": "Select All Fills",
+          "scriptPath": "09-Shapes/Select-All-Fills.jsxbin",
+          "toolTip": "Selects fill properties in the selected shape layers",
+          "savedSeconds": 12
+        }, {
+          "id": 208,
+          "icon": "shapes-toggle-fill-stroke",
+          "name": "Toggle Fill/Stroke",
+          "scriptPath": "09-Shapes/Toggle-Fill-Stroke.jsxbin",
+          "toolTip": "Toggles between stroke and fill properties\nin selected comps or the active comp",
+          "savedSeconds": 15
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 209,
+          "icon": "shapes-cap-join-to-mitter",
+          "name": "Cap Join Miter",
+          "scriptPath": "09-Shapes/Cap-Join-Miter.jsxbin",
+          "toolTip": "Sets stroke cap and join options to be consistent\nwith miter join in selected shape layers",
+          "savedSeconds": 13
+        },
+        {
+          "id": 210,
+          "icon": "shapes-cap-join-to-round",
+          "name": "Cap Join Round",
+          "scriptPath": "09-Shapes/Cap-Join-Round.jsxbin",
+          "toolTip": "Sets stroke cap and join options to be consistent\nwith round join in selected shape layers",
+          "savedSeconds": 13
+        },
+        {
+          "id": 211,
+          "icon": "shapes-cap-join-to-bevel",
+          "name": "Cap Join Bevel",
+          "scriptPath": "09-Shapes/Cap-Join-Bevel.jsxbin",
+          "toolTip": "Sets stroke cap and join options to be consistent\nwith bevel join in selected shape layers",
+          "savedSeconds": 13
+        }
+
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Text",
+      "icon": "ctg-text",
+      "sections": [
+        {
+          "id": 212,
+          "icon": "text-find-and-replace-font",
+          "name": "Find and Replace Text",
+          "scriptPath": "10-Text/Find-and-Replace.jsxbin",
+          "toolTip": "Finds and replaces text in selected text layers,\ncomps or across the entire project",
+          "savedSeconds": 40
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 213,
+          "icon": "text-text-box-generator",
+          "name": "Text Box Generator",
+          "scriptPath": "10-Text/Text-Box-Generator.jsxbin",
+          "toolTip": "Creates a dynamic backplate for selected text layers\nwith customizable design options",
+          "savedSeconds": 55
+        },
+        {
+          "id": 214,
+          "icon": "text-text-area-limitter",
+          "name": "Text Area Limiter",
+          "scriptPath": "10-Text/Text-Area-Limiter.jsxbin",
+          "toolTip": "Applies an automatic size constraint on selected text layers\nto fit user defined width and height limits",
+          "savedSeconds": 55
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },      
+        {
+          "id": 215,
+          "icon": "text-wiggly-text",
+          "name": "Wiggly Text",
+          "scriptPath": "10-Text/Wiggly-Text.jsxbin",
+          "toolTip": "Applies a stop-motion style wiggling letters effect on selected text layers",
+          "savedSeconds": 55
+        },
+        {
+          "id": 216,
+          "icon": "text-text-reveal-animation",
+          "name": "Text Reveal Animation",
+          "scriptPath": "10-Text/Text-Reveal.jsxbin",
+          "toolTip": "Creates a smooth text reveal and wipe animation on selected\ntext layers with animatable options",
+          "savedSeconds": 55
+        }
+
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Animation Tools",
+      "icon": "ctg-animation",
+      "sections": [{
+          "id": 217,
+          "icon": "animation-elastic-motion",
+          "name": "Elastic Motion",
+          "scriptPath": "11-Animation-Tools/Elastic-Motion.jsxbin",
+          "toolTip": "Creates an overshoot effect based on the velocity of value\nchanges with animation options\nWorks best with short distances of 5 to 7 frames between keys",
+          "savedSeconds": 35
+        },
+        {
+          "id": 218,
+          "icon": "animation-bounce",
+          "name": "Bounce",
+          "scriptPath": "11-Animation-Tools/Bounce.jsxbin",
+          "toolTip": "Creates a bounce effect based on the velocity of value\nchanges with animation options\nWorks best with short distances of 5 to 7 frames between keys",
+          "savedSeconds": 55
+        },
+        {
+          "id": 219,
+          "icon": "animation-bend",
+          "name": "Bend",
+          "scriptPath": "11-Animation-Tools/Bend.jsxbin",
+          "toolTip": "Creates a bend effect setup that takes into account true start\nand end point values matching the layer size",
+          "savedSeconds": 55
+        },
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 220,
+          "icon": "animation-delayer",
+          "name": "Delayer",
+          "scriptPath": "11-Animation-Tools/Delayer.jsxbin",
+          "toolTip": "Applies a stack of delayed animation values on selected layers\nusing the initial property selection as driver\nSelect the animated property to be the driver,\nthen select the layers to follow and apply.",
+          "savedSeconds": 21
+        },
+        {
+          "id": 221,
+          "icon": "animation-auto-fader",
+          "name": "Auto Fader",
+          "scriptPath": "11-Animation-Tools/Auto-Fader.jsxbin",
+          "toolTip": "Applies an automatic fader function on selected layers\nbased on layer in/out points with animation options",
+          "savedSeconds": 21
+        },
+        {
+          "id": 222,
+          "icon": "animation-wiggle-property",
+          "name": "Wiggle Property",
+          "scriptPath": "11-Animation-Tools/Wiggles.jsxbin",
+          "toolTip": "Applies a wiggle effect on selected properties with animation options",
+          "savedSeconds": 21
+        },
+        {
+          "id": 223,
+          "icon": "animation-blinker-flicker",
+          "name": "Blinker Flicker",
+          "scriptPath": "11-Animation-Tools/Blinker-Flicker.jsxbin",
+          "toolTip": "Applies a blinking/flickering effect on selected\nlayers with animation options",
+          "savedSeconds": 55
+        },
+        {
+          "id": 224,
+          "icon": "animation-spin",
+          "name": "Spin",
+          "scriptPath": "11-Animation-Tools/Spin.jsxbin",
+          "toolTip": "Applies an expression control on selected layers\nfor adding a continuous rotation",
+          "savedSeconds": 21
+        },       
+        {
+          "icon": "separator-horiz",
+          "name": "separator"
+        },
+        {
+          "id": 225,
+          "icon": "animation-stop-motion",
+          "name": "Stop Motion",
+          "scriptPath": "11-Animation-Tools/Stop_Motion.jsxbin",
+          "toolTip": "Creates a stop-motion animation effect on selected\nlayers with animation options",
+          "savedSeconds": 180
+        }
+      ]
+    }
+  ]
+}
